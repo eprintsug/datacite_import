@@ -1,0 +1,34 @@
+$c->{datacite_import}{typemap}{Audiovisual} = 'video';
+$c->{datacite_import}{typemap}{Book} = 'book';
+$c->{datacite_import}{typemap}{BookChapter} = 'book_section';
+$c->{datacite_import}{typemap}{Collection} = 'other';
+$c->{datacite_import}{typemap}{ComputationalNotebook} = 'other';
+$c->{datacite_import}{typemap}{ConferenceProceeding} = 'book';
+$c->{datacite_import}{typemap}{DataPaper} = 'monograph';
+$c->{datacite_import}{typemap}{Dataset} = 'dataset';
+$c->{datacite_import}{typemap}{Dissertation} = 'thesis';
+$c->{datacite_import}{typemap}{Event} = 'performance';
+$c->{datacite_import}{typemap}{Image} = 'image';
+$c->{datacite_import}{typemap}{InteractiveResource} = 'teaching_resource';
+$c->{datacite_import}{typemap}{Journal} = 'book';
+$c->{datacite_import}{typemap}{JournalArticle} = 'article';
+$c->{datacite_import}{typemap}{Model} = 'other';
+$c->{datacite_import}{typemap}{OutputManagementPlan} = 'monograph';
+$c->{datacite_import}{typemap}{PeerReview} = 'monograph';
+$c->{datacite_import}{typemap}{PhysicalObject} = 'artefact';
+$c->{datacite_import}{typemap}{Preprint} = 'article';
+$c->{datacite_import}{typemap}{Report} = 'monograph';
+$c->{datacite_import}{typemap}{Service} = 'other';
+$c->{datacite_import}{typemap}{Software} = 'other';
+$c->{datacite_import}{typemap}{Sound} = 'audio';
+$c->{datacite_import}{typemap}{Standard} = 'monograph';
+$c->{datacite_import}{typemap}{Text} = 'other';
+$c->{datacite_import}{typemap}{Workflow} = 'other';
+$c->{datacite_import}{typemap}{Other} = 'other';
+
+$c->{datacite_import}{datemap}{Accepted} = 'accepted';
+$c->{datacite_import}{datemap}{Available} = 'published_online';
+$c->{datacite_import}{datemap}{Issued} = 'published';
+$c->{datacite_import}{datemap}{Submitted} = 'submitted';
+
+$c->{datacite_import}{date_priority} = [ 'published', 'published_online', 'accepted', 'submitted' ];

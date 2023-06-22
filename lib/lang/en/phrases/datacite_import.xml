@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml" xmlns:epp="http://eprints.org/ep3/phrase" xmlns:epc="http://eprints.org/ep3/control">
+
+	<epp:phrase id="Plugin/Import/DataCite:bulk_input:form">
+		<table>
+			<tr>
+				<td>Either enter DOIs (one per line):</td><td><epc:pin name="bulk_input_text_area"/></td>
+			</tr>
+			<tr>
+				<td><b>OR</b> select a file to import from:</td><td><epc:pin name="bulk_input_file_upload"/></td>
+			</tr>
+		</table>
+	</epp:phrase>
+
+	<epp:phrase id="Plugin/Import/DataCite:invalid_doi">Unrecognised or invalid doi: <epc:pin name="doi" />.<br />Remote service status: <code><epc:pin name="status"/></code></epp:phrase>
+
+	<epp:phrase id="Plugin/Import/DataCite:duplicate_doi"><strong>Duplicate DOI: <epc:pin name="doi" /></strong>.<br />This DOI already exists in the repository: <br /><epc:pin name="msg"/></epp:phrase>
+
+	<epp:phrase id="Plugin/Screen/Import/DataCite:help">Enter a DOI or DOIs, one per line e.g. doi:10.14454/FXWS-0523</epp:phrase>
+
+	<epp:phrase id="Plugin/Screen/Import/DataCite:data"/>
+
+	<epp:phrase id="Plugin/Screen/Import/DataCite:data_help"/>
+
+</epp:phrases>
